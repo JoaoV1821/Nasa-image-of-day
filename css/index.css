@@ -1,6 +1,6 @@
 .root {
     font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #1d161e;
+    background-color: #041427;
     margin: 0%;
 }
 
@@ -10,6 +10,7 @@
     justify-content: space-around;
     width: 100%;
     height: 70px;
+    color: #E4E4E4;
 }
 
 .links {
@@ -18,7 +19,7 @@
     justify-content: space-around;
     align-items: center;
     width: 60%;
-    color: #4c1c46;
+    color: #E4E4E4;
     font-size: 15px;
     text-decoration: none;
 }
@@ -30,7 +31,7 @@
 
 .links :visited, :link {
     text-decoration: none;
-    color: #4c1c46;
+    color: #E4E4E4;
 }
 .title {
     font-size: 40px;
@@ -42,7 +43,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10%;
+    margin: 13%;
+    width: 100%;
+    height: 100%;
     
     
 }
@@ -58,11 +61,11 @@
 }
 
 .title {
-    margin-top: 12%;
+    margin-top: 5%;
 }
 
 .main-section {
-    background-color: #E4E4E4;
+    background-color: #7c8f93;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,12 +74,11 @@
 
 .photo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100%;
     width: 100%;
-    margin-bottom: 10%;
 }
 
 .field-description {
@@ -110,4 +112,14 @@
     height: 30px;
     font-size: 20px;
     margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   color: #E4E4E4;
+   height: 45px;
 }
