@@ -1,3 +1,9 @@
+.root {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #1d161e;
+    margin: 0%;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -10,13 +16,57 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    align-items: center;
+    width: 60%;
+    color: #4c1c46;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.links :hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.links :visited, :link {
+    text-decoration: none;
+    color: #4c1c46;
+}
+.title {
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.info {
+    color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    
+    
+}
+
+.info-text {
+    font-size: 20px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.title {
+    margin-top: 12%;
+}
+
+.main-section {
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .photo {
@@ -26,15 +76,38 @@
     justify-content: space-around;
     height: 100%;
     width: 100%;
+    margin-bottom: 10%;
+}
+
+.field-description {
+    border: none;
+}
+
+.description {
+    font-size: 20px;
 }
 
 .photo-nasa {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.date {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.submit {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 2%;
 }
