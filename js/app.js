@@ -4,6 +4,7 @@ const searchImage = function (date=getDataAtual()) {
     const description = $('#description');
     const img = $('#image');
     const video = $('#video');
+    const photoDate = $('#photo-date');
 
     $.ajax({
         type: 'GET',
@@ -11,6 +12,7 @@ const searchImage = function (date=getDataAtual()) {
         success: function (response) {
             title.text(response.title);
             description.text(response.explanation);
+            photoDate.text(response.date)
             console.log(response);
 
             if (response.media_type == 'image') {
